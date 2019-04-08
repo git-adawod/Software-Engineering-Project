@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcryptjs');
 
-mongoose.connect('mongodb://mongodb4607da:ni2fom@danu7.it.nuigalway.ie:8717/mongodb4607', {useNewUrlParser: true, useCreateIndex: true});
+mongoose.connect('mongodb://XXXXXXX', {useNewUrlParser: true, useCreateIndex: true});
 var db = mongoose.connection;
 
 var UserSchema = mongoose.Schema({
